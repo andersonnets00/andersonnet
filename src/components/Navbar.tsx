@@ -48,12 +48,12 @@ export function Navbar() {
             ))}
           </nav>
           <div className="hidden md:block">
-            <Link
-              to="/contact"
+            <a
+              href="tel:8885515205"
               className="btn-aurora rounded-xl px-4 py-2 text-sm font-semibold"
             >
-              Get Assistance
-            </Link>
+              Call (888) 551-5205
+            </a>
           </div>
           <button
             onClick={() => setOpen(!open)}
@@ -77,13 +77,13 @@ export function Navbar() {
                   {l.label}
                 </Link>
               ))}
-              <Link
-                to="/contact"
+              <a
+                href="tel:8885515205"
                 onClick={() => setOpen(false)}
                 className="btn-aurora mt-2 rounded-xl px-4 py-2 text-center text-sm font-semibold"
               >
-                Get Assistance
-              </Link>
+                Call (888) 551-5205
+              </a>
             </div>
           </div>
         )}

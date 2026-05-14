@@ -126,19 +126,19 @@ function Hero() {
               cable-related setup concerns — without ever asking for credentials.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-3">
-              <Link
-                to="/contact"
+              <a
+                href="tel:8885515205"
                 className="btn-aurora group inline-flex items-center gap-2 rounded-xl px-7 py-3.5 text-sm font-semibold"
               >
-                Get Free Guidance
+                Call (888) 551-5205
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-              </Link>
-              <Link
-                to="/services"
+              </a>
+              <a
+                href="tel:8885515205"
                 className="inline-flex items-center gap-2 rounded-xl border border-border/80 bg-white/5 px-6 py-3.5 text-sm font-semibold backdrop-blur transition-colors hover:bg-white/10"
               >
-                Explore Services
-              </Link>
+                Call (888) 551-5205
+              </a>
               <span className="ml-1 inline-flex items-center gap-2 text-xs text-muted-foreground">
                 <ShieldCheck className="h-3.5 w-3.5 text-cyan" />
                 Secured · No credentials collected
@@ -467,12 +467,12 @@ function ServicesGrid() {
                   </span>
                 ))}
               </div>
-              <Link
-                to="/services"
+              <a
+                href="tel:8885515205"
                 className="btn-aurora mt-8 inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold"
               >
-                Explore this service <ArrowRight className="h-4 w-4" />
-              </Link>
+                Call (888) 551-5205 <ArrowRight className="h-4 w-4" />
+              </a>
             </div>
           </div>
         </div>
@@ -682,12 +682,12 @@ function FinalCTA() {
             guidance tailored to your environment.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link to="/contact" className="btn-aurora rounded-xl px-6 py-3 text-sm font-semibold">
-              Contact Support
-            </Link>
-            <Link to="/contact" className="rounded-xl border border-border/80 bg-white/5 px-6 py-3 text-sm font-semibold backdrop-blur hover:bg-white/10">
-              Request Guidance
-            </Link>
+            <a href="tel:8885515205" className="btn-aurora rounded-xl px-6 py-3 text-sm font-semibold">
+              Call (888) 551-5205
+            </a>
+            <a href="tel:8885515205" className="rounded-xl border border-border/80 bg-white/5 px-6 py-3 text-sm font-semibold backdrop-blur hover:bg-white/10">
+              Call (888) 551-5205
+            </a>
           </div>
           <p className="mt-4 text-xs text-muted-foreground">
             Independent informational assistance only.

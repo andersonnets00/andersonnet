@@ -16,7 +16,7 @@ export function Footer() {
               by any internet, broadband, cable, or telecom provider.
             </p>
             <div className="mt-6 space-y-2 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2"><Phone className="h-4 w-4 text-cyan"/> +1 (888) 555-0142</div>
+              <a href="tel:8885515205" className="flex items-center gap-2 hover:text-cyan transition-colors"><Phone className="h-4 w-4 text-cyan"/> (888) 551-5205</a>
               <div className="flex items-center gap-2"><Mail className="h-4 w-4 text-cyan"/> hello@andersonnet.com</div>
               <div className="flex items-center gap-2"><MapPin className="h-4 w-4 text-cyan"/> 1100 Connectivity Ave, Suite 400</div>
             </div>

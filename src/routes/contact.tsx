@@ -312,7 +312,7 @@ function Contact() {
             </form>
           </div>
           <div className="lg:col-span-5 space-y-4">
-            <ContactCard icon={Phone} title="Assistance line" body="+1 (888) 555-0142" />
+            <ContactCard icon={Phone} title="Assistance line" body="(888) 551-5205" />
             <ContactCard icon={Mail} title="Email" body="hello@andersonnet.com" />
             <ContactCard icon={Clock} title="Hours" body="Mon–Sun · 7:00 AM – 11:00 PM (ET)" />
             <DisclosureBanner />

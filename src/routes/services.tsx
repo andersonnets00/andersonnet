@@ -51,8 +51,8 @@ function ServicesPage() {
         description="A premium informational guidance experience covering Wi-Fi, streaming, devices, and cable-related concerns. We never sell plans or represent providers."
       >
         <div className="flex flex-wrap gap-3">
-          <Link to="/contact" className="btn-aurora rounded-xl px-6 py-3 text-sm font-semibold">Get Assistance</Link>
-          <Link to="/contact" className="rounded-xl border border-border/80 bg-white/5 px-6 py-3 text-sm font-semibold backdrop-blur hover:bg-white/10">Speak With Support</Link>
+          <a href="tel:8885515205" className="btn-aurora rounded-xl px-6 py-3 text-sm font-semibold">Call (888) 551-5205</a>
+          <a href="tel:8885515205" className="rounded-xl border border-border/80 bg-white/5 px-6 py-3 text-sm font-semibold backdrop-blur hover:bg-white/10">Call (888) 551-5205</a>
         </div>
       </PageHero>
 
@@ -65,9 +65,9 @@ function ServicesPage() {
               </div>
               <h3 className="mt-5 text-lg font-semibold">{s.title}</h3>
               <p className="mt-2 text-sm text-muted-foreground">{s.desc}</p>
-              <Link to="/contact" className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-cyan">
-                Request Guidance <ArrowRight className="h-4 w-4" />
-              </Link>
+              <a href="tel:8885515205" className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-cyan">
+                Call (888) 551-5205 <ArrowRight className="h-4 w-4" />
+              </a>
             </div>
           ))}
         </div>
@@ -98,7 +98,7 @@ function ServicesPage() {
           <h2 className="text-3xl font-bold sm:text-4xl">Ready for <span className="text-gradient">clarity</span>?</h2>
           <p className="mt-3 text-muted-foreground">Independent informational assistance only.</p>
           <div className="mt-6 flex justify-center gap-3">
-            <Link to="/contact" className="btn-aurora rounded-xl px-6 py-3 text-sm font-semibold">Contact Assistance Team</Link>
+            <a href="tel:8885515205" className="btn-aurora rounded-xl px-6 py-3 text-sm font-semibold">Call (888) 551-5205</a>
           </div>
         </div>
       </section>

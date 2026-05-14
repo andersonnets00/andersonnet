@@ -108,9 +108,9 @@ function About() {
       <section className="mx-auto max-w-5xl px-4 py-16 sm:px-6">
         <DisclosureBanner />
         <div className="mt-8 text-center">
-          <Link to="/contact" className="btn-aurora rounded-xl px-6 py-3 text-sm font-semibold inline-block">
-            Contact Assistance Team
-          </Link>
+          <a href="tel:8885515205" className="btn-aurora rounded-xl px-6 py-3 text-sm font-semibold inline-block">
+            Call (888) 551-5205
+          </a>
         </div>
       </section>
     </>
